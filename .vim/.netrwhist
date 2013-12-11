@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/ser/alicht/Work1/SVN/lroc-soc-new/app/views'
+let g:netrw_dirhist_2='/home/ser/alicht/Work1/SVN/lroc-soc-new/app/views/file_cart'
+let g:netrw_dirhist_3='/Users/ssuser/GIT/shutterstock-service-review/truck/lib/truck'
