@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'irb/completion'
-require "/home/ser/alicht/color.rb"
+require "./color.rb"
 
 IRB.conf[:PROMPT_MODE] = :SIMPLE
 
