@@ -10,7 +10,6 @@ alias rm='rm -i'
 
 #ssh
 alias ssh='ssh -X'
-alias dev3='ssh alicht@dev-code03.nj01.shuttercloud.net'
 alias ..='cd ../'
 alias ....='cd ../../'
 alias paper='cat >/dev/null'
