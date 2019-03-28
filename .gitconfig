@@ -1,0 +1,21 @@
+[user]
+        email = .....
+        name = alicht9
+[push]
+        default = simple
+[alias]
+        lg   = log --oneline --graph --color --decorate --pretty=format:'%C(yellow)%h%Creset -%C(bold yellow)%d%Creset  %s %Cgreen(%cr)%C(bold blue)<%an>%Creset'
+        # Update - a better fetch/pull
+        up   = "!git remote update -p; git merge --ff-only @{u}"
+        s    = status
+        co   = checkout
+        fix  = commit --amend -C HEAD
+        wc   = whatchanged
+        b    = branch -vv
+        pp   = "git pull --rebase && git push"
+        # Clean Branches - remove things already merged into master and deleted
+        cb   = "!git b |grep gone|awk '{print $1}'|xargs -L1 git branch -D"
+        # Squash Reset - reset the branch since master so you can squash into 1 commit
+        sr   = "!git reset $(git merge-base master $(git rev-parse --abbrev-ref HEAD))"
+[grep]
+        lineNumber = true
